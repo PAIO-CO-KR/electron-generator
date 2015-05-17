@@ -1,2 +1,3 @@
-node_modeuls/
+node_modules/
 dist/
+.electrons/
