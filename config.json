@@ -1,0 +1,22 @@
+{
+  "version":"0.26.0",
+
+  "darwin":{
+    "download-type":"darwin",
+    "filepath":".electrons/Electron.app",
+    "destpath":"dist/Electron.app",
+    "resource":"dist/Electron.app/Contents/Resources/default_app"
+  },
+
+  "win32":{
+    "download-type":"win32",
+    "filepath":"",
+    "destpath":""
+  },
+
+  "linux":{
+    "download-type":"linux",
+    "filepath":"",
+    "destpath":""
+  }
+}

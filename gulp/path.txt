@@ -1,0 +1,1 @@
+/Users/cranberry/paio_work/generatorElectron/.electrons/Electron.app/Contents/MacOS/Electron
