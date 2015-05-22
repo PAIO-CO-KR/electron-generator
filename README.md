@@ -12,4 +12,4 @@ how to use
  - build-linux
  - build-win
 
-3. you can see all binary at 'dist' folder.
+after build you can see all binary at 'dist' folder.
