@@ -3,20 +3,25 @@
 
   "darwin":{
     "download-type":"darwin",
-    "filepath":".electrons/Electron.app",
-    "destpath":"dist/Electron.app",
-    "resource":"dist/Electron.app/Contents/Resources/default_app"
+    "downloadPath":"../.electrons/osx",
+    "filepath":".electrons/osx/Electron.app",
+    "destpath":"dist/osx/Electron.app",
+    "resource":"dist/osx/Electron.app/Contents/Resources/default_app"
   },
 
   "win32":{
     "download-type":"win32",
-    "filepath":"",
-    "destpath":""
+    "downloadPath":"../.electrons/win32",
+    "filepath":".electrons/win32",
+    "destpath":"dist/win32/",
+    "resource":"dist/win32/resources/default_app"
   },
 
   "linux":{
+    "downloadPath":"../.electrons/linux",
     "download-type":"linux",
-    "filepath":"",
-    "destpath":""
+    "filepath":".electrons/linux",
+    "destpath":"dist/linux/",
+    "resource":"dist/linux/resources/default_app"
   }
 }
