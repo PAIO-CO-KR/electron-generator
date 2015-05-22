@@ -92,11 +92,11 @@ module.exports = function(gulp,gulpsync){
         });
     });
 
-    //gulp.task('build-all',function(){
-    //    console.log('1');
-    //    runSequence('build-osx','build-linux','build-win',function(err){
-    //       if(err)return console.log(err);
-    //        console.log('all binary build done');
-    //    });
-    //});
+    gulp.task('build-all',function(){
+        console.log('1');
+        runSequence('build-osx','build-linux','build-win',function(err){
+           if(err)return console.log(err);
+            console.log('all binary build done');
+        });
+    });
 }
